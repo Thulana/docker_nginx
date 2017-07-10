@@ -1,0 +1,33 @@
+2017/07/04 03:40:48 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:3
+2017/07/04 03:41:38 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:3
+2017/07/04 03:42:00 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:3
+2017/07/04 03:45:01 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:3
+2017/07/04 03:45:29 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:3
+2017/07/04 03:53:39 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:3
+2017/07/04 03:54:38 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:3
+2017/07/04 03:56:55 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/sites-available/default:2
+2017/07/04 04:04:46 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:2
+2017/07/04 04:05:34 [emerg] 1#1: "server" directive is not allowed here in /etc/nginx/nginx.conf:3
+2017/07/04 04:06:36 [emerg] 1#1: SSL_CTX_use_PrivateKey_file("/etc/ssl/private/nginx.key") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/private/nginx.key','r') error:20074002:BIO routines:file_ctrl:system lib error:140B0002:SSL routines:SSL_CTX_use_PrivateKey_file:system lib)
+2017/07/04 04:08:00 [emerg] 1#1: no "events" section in configuration
+2017/07/04 04:12:58 [error] 7#7: *9 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "localhost:9090"
+2017/07/04 04:12:58 [error] 7#7: *9 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost:9090", referrer: "https://localhost:9090/"
+2017/07/04 04:13:01 [error] 7#7: *9 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "localhost:9090"
+2017/07/04 04:13:06 [error] 7#7: *9 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "localhost:9090"
+2017/07/04 04:14:59 [error] 7#7: *18 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "localhost:9090"
+2017/07/04 04:15:00 [error] 7#7: *18 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "localhost:9090"
+2017/07/04 04:15:00 [error] 7#7: *18 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "localhost:9090"
+2017/07/04 04:15:00 [error] 7#7: *18 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "localhost:9090"
+2017/07/04 04:15:00 [error] 7#7: *18 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "localhost:9090"
+2017/07/04 04:15:01 [error] 7#7: *18 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "localhost:9090"
+2017/07/04 04:15:01 [error] 7#7: *18 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "localhost:9090"
+2017/07/04 04:20:23 [error] 7#7: *7 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.17.0.1, server: mydomain.com, request: "GET / HTTP/1.1", host: "localhost:9090"
+2017/07/04 04:31:53 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:37
+2017/07/04 04:39:02 [emerg] 1#1: bind() to [::]:80 failed (98: Address already in use)
+2017/07/04 04:39:02 [emerg] 1#1: bind() to [::]:80 failed (98: Address already in use)
+2017/07/04 04:39:02 [emerg] 1#1: bind() to [::]:80 failed (98: Address already in use)
+2017/07/04 04:39:02 [emerg] 1#1: bind() to [::]:80 failed (98: Address already in use)
+2017/07/04 04:39:02 [emerg] 1#1: bind() to [::]:80 failed (98: Address already in use)
+2017/07/04 04:39:02 [emerg] 1#1: still could not bind()
+2017/07/04 05:39:33 [notice] 14#14: signal process started
+2017/07/04 05:41:37 [error] 15#15: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: example.com, request: "GET /favicon.ico HTTP/1.1", host: "localhost:7070", referrer: "http://localhost:7070/"
